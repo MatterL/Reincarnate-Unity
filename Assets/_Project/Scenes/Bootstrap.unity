@@ -138,6 +138,7 @@ GameObject:
   - component: {fileID: 1877787409}
   - component: {fileID: 1877787406}
   - component: {fileID: 1877787408}
+  - component: {fileID: 1877787414}
   m_Layer: 0
   m_Name: NetworkManager
   m_TagString: Untagged
@@ -348,6 +349,20 @@ MonoBehaviour:
   _frameRate: 30
   _shareIds: 1
   _startOnHeadless: 1
+--- !u!114 &1877787414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877787402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ae9c0226af28fe4f8a4d08008018295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Reincarnate.Networking.PlayerSpawner
+  playerPrefab: {fileID: 3753609709000285809, guid: 6a49cefbc6c688b46afbb1b0117e17f1, type: 3}
+  spawnSpacing: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
